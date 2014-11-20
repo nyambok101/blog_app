@@ -1,0 +1,14 @@
+<% provide(:title, 'About Us') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The TK Blog App | <%= yield(:title) %></title>
+  </head>
+  <body> 
+    <h1>About Us</h1>
+    <p>
+      The Ruby on Rails application The TK Blog 
+      is a self-driven project by me in a bid to create my own blog.
+    </p>
+  </body>
+</html>

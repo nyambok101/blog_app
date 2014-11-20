@@ -1,0 +1,14 @@
+<% provide(:title, 'Help') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The TK Blog App | <%= yield(:title) %></title>
+  </head>
+  <body>
+    <h1>Help</h1>
+    <p>
+      There is no help on the Ruby on Rails application The TK Blog.
+      There never will be. 
+    </p>
+  </body>
+</html>

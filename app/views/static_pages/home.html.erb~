@@ -1,0 +1,14 @@
+<% provide(:title, 'Home')%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The TK Blog App | <%= yield(:title) %></title>
+  </head>
+  <body>
+    <h1>The TK Blog</h1>
+    <p>
+      This is the home page for the 
+      Ruby on Rails application The TK Blog.
+    </p>
+  </body>
+</html>
